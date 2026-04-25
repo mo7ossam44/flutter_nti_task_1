@@ -51,7 +51,6 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
 
               const SizedBox(height: 36),
 
-              // Name field
               buildTextField(
                 controller: _nameController,
                 hint: 'Name',
@@ -61,7 +60,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
 
               const SizedBox(height: 16),
 
-              // Email field
+      
               buildTextField(
                 controller: _emailController,
                 hint: 'Email address',
@@ -71,7 +70,6 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
 
               const SizedBox(height: 16),
 
-              // Password field
               buildTextField(
                 controller: _passwordController,
                 hint: 'Password',
@@ -93,7 +91,6 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
 
               const SizedBox(height: 16),
 
-              // Confirm Password field
               buildTextField(
                 controller: _confirmPasswordController,
                 hint: 'Confirm Password',
@@ -116,7 +113,6 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
 
               const SizedBox(height: 28),
 
-              // Create Account button
               buildPrimaryButton(
                 label: 'Create Account',
                 onPressed: () {
@@ -126,7 +122,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
 
               const SizedBox(height: 20),
 
-              // Sign in link
+
               Center(
                 child: GestureDetector(
                   onTap: () => Navigator.pop(context),

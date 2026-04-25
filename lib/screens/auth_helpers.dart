@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-// ─────────────────────────────────────────────
-// Back Button
-// ─────────────────────────────────────────────
+
 Widget buildBackButton(BuildContext context) {
   return GestureDetector(
     onTap: () {
@@ -27,9 +25,6 @@ Widget buildBackButton(BuildContext context) {
   );
 }
 
-// ─────────────────────────────────────────────
-// Header (Title + Subtitle)
-// ─────────────────────────────────────────────
 Widget buildHeader({required String title, required String subtitle}) {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
@@ -55,9 +50,7 @@ Widget buildHeader({required String title, required String subtitle}) {
   );
 }
 
-// ─────────────────────────────────────────────
-// Text Field
-// ─────────────────────────────────────────────
+
 Widget buildTextField({
   required TextEditingController controller,
   required String hint,
@@ -95,9 +88,7 @@ Widget buildTextField({
   );
 }
 
-// ─────────────────────────────────────────────
-// Primary Button
-// ─────────────────────────────────────────────
+
 Widget buildPrimaryButton({
   required String label,
   required VoidCallback onPressed,
@@ -123,9 +114,7 @@ Widget buildPrimaryButton({
   );
 }
 
-// ─────────────────────────────────────────────
-// Divider with Text
-// ─────────────────────────────────────────────
+
 Widget buildDividerWithText(String text) {
   return Row(
     children: [
@@ -142,9 +131,7 @@ Widget buildDividerWithText(String text) {
   );
 }
 
-// ─────────────────────────────────────────────
-// Social Icons Row
-// ─────────────────────────────────────────────
+
 Widget buildSocialIcons() {
   return Row(
     mainAxisAlignment: MainAxisAlignment.center,

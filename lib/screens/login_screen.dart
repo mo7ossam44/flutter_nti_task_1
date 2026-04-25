@@ -34,12 +34,12 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Back button (no-op on first screen)
+
               buildBackButton(context),
 
               const SizedBox(height: 32),
 
-              // Title & subtitle
+              
               buildHeader(
                 title: 'Log in',
                 subtitle:
@@ -48,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 36),
 
-              // Email field
+          
               buildTextField(
                 controller: _emailController,
                 hint: 'Email address',
@@ -58,7 +58,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 16),
 
-              // Password field
+     
               buildTextField(
                 controller: _passwordController,
                 hint: 'Password',
@@ -80,7 +80,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 12),
 
-              // Remember me + Forgot password row
+      
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -137,7 +137,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 20),
 
-              // Sign up link
+       
               Center(
                 child: GestureDetector(
                   onTap: () {

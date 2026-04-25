@@ -27,12 +27,11 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Back button
+
               buildBackButton(context),
 
               const SizedBox(height: 32),
 
-              // Title & subtitle
               buildHeader(
                 title: 'Forgot Password',
                 subtitle:
@@ -41,7 +40,7 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
 
               const SizedBox(height: 36),
 
-              // Email field
+          
               buildTextField(
                 controller: _emailController,
                 hint: 'Email address',
@@ -51,11 +50,11 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
 
               const SizedBox(height: 28),
 
-              // Continue button
+        
               buildPrimaryButton(
                 label: 'Continue',
                 onPressed: () {
-                  // UI only
+                
                 },
               ),
             ],
